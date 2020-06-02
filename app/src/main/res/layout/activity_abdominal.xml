@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbdominalActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/s_1848"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="مغص"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+            <CheckBox
+                android:id="@+id/s_1432"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="عسر الهضم"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+            <CheckBox
+                android:id="@+id/s_305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="القيء"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+            <CheckBox
+                android:id="@+id/s_110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="الخفقان"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="حرقة في المعدة"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="ضعف التنفس"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_329"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="الامساك"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="الاسهال"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_1925"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="الم الصدر ضغط"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+            <CheckBox
+                android:id="@+id/s_534"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="بطء القلب"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+            <CheckBox
+                android:id="@+id/s_1190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="آلام الضهر"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+            <CheckBox
+                android:id="@+id/s_227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="سرعة التنفس"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="زيادة الشهية"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="زيادة الوزن"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="فقدان الوزن"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_277"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="زيادة محيط البطن"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="قلة البول"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="التبول المتكرر"
+                android:textColor="@color/dark"
+                android:textSize="36sp"
+
+                />
+
+            <CheckBox
+                android:id="@+id/s_1488"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="زيادة مرحلة الزفير"
+                android:textColor="@color/dark"
+                android:textSize="36sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:onClick="clk"
+        android:src="@drawable/ic_send_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

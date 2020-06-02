@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LegcheckActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey1"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <CheckBox
+            android:textColor="@color/dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_117"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="تقلص عضلات الساق"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_408"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="القدمين والأصابع الباردة"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_270"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="صرير المفاصل أثناء الحركة"
+            android:textColor="@color/dark"
+            />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_553"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="زرقة الأصابع"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_578"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="آلام القدم"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_317"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="ضعف التوازن أثناء المشي"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_1624"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="عدم القدرة على الوقوف على اصابع القدم
+"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_1789"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="تلون الأظافر الأصفر"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_83"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="تنمل في الأطراف"
+            android:textColor="@color/dark"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_125"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="تنمل في القدمين"
+            android:textColor="@color/dark"
+            />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_44"
+            android:layoutDirection="rtl"
+            android:textSize="36sp"
+            android:text="آلام المفاصل"
+            android:textColor="@color/dark"
+            />
+
+    </LinearLayout>
+</ScrollView>
+<android.support.design.widget.FloatingActionButton
+android:id="@+id/fab"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_margin="24dp"
+android:background="@drawable/bg"
+android:onClick="clk"
+android:layout_marginBottom="40dp"
+android:src="@drawable/ic_send_black_24dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
